@@ -9236,7 +9236,7 @@
         },
         "pako": {
           "version": "github:keeweb/pako#653c0b00d8941c89d09ed4546d2179001ec44efc",
-          "from": "pako@github:keeweb/pako#653c0b00d8941c89d09ed4546d2179001ec44efc"
+          "from": "github:keeweb/pako#653c0b00d8941c89d09ed4546d2179001ec44efc"
         },
         "parse-glob": {
           "version": "3.0.4",
@@ -9613,7 +9613,7 @@
         },
         "text-encoding": {
           "version": "github:keeweb/text-encoding#4dfb7cb0954c222852092f8b06ae4f6b4f60bfbb",
-          "from": "text-encoding@github:keeweb/text-encoding#4dfb7cb0954c222852092f8b06ae4f6b4f60bfbb"
+          "from": "github:keeweb/text-encoding#4dfb7cb0954c222852092f8b06ae4f6b4f60bfbb"
         },
         "timers-browserify": {
           "version": "2.0.2",
@@ -9855,7 +9855,7 @@
         },
         "xmldom": {
           "version": "github:keeweb/xmldom#ec8f61f723e2f403adaf7a1bbf55ced4ff1ea0c6",
-          "from": "xmldom@github:keeweb/xmldom#ec8f61f723e2f403adaf7a1bbf55ced4ff1ea0c6"
+          "from": "github:keeweb/xmldom#ec8f61f723e2f403adaf7a1bbf55ced4ff1ea0c6"
         },
         "xtend": {
           "version": "4.0.1",
@@ -12286,17 +12286,26 @@
       }
     },
     "react-redux": {
-      "version": "5.1.1",
-      "resolved": "https://registry.npmjs.org/react-redux/-/react-redux-5.1.1.tgz",
-      "integrity": "sha512-LE7Ned+cv5qe7tMV5BPYkGQ5Lpg8gzgItK07c67yHvJ8t0iaD9kPFPAli/mYkiyJYrs2pJgExR2ZgsGqlrOApg==",
+      "version": "6.0.1",
+      "resolved": "https://registry.npmjs.org/react-redux/-/react-redux-6.0.1.tgz",
+      "integrity": "sha512-T52I52Kxhbqy/6TEfBv85rQSDz6+Y28V/pf52vDWs1YRXG19mcFOGfHnY2HsNFHyhP+ST34Aih98fvt6tqwVcQ==",
       "requires": {
-        "@babel/runtime": "^7.1.2",
-        "hoist-non-react-statics": "^3.1.0",
+        "@babel/runtime": "^7.3.1",
+        "hoist-non-react-statics": "^3.3.0",
         "invariant": "^2.2.4",
-        "loose-envify": "^1.1.0",
-        "prop-types": "^15.6.1",
-        "react-is": "^16.6.0",
-        "react-lifecycles-compat": "^3.0.0"
+        "loose-envify": "^1.4.0",
+        "prop-types": "^15.7.2",
+        "react-is": "^16.8.2"
+      },
+      "dependencies": {
+        "hoist-non-react-statics": {
+          "version": "3.3.0",
+          "resolved": "https://registry.npmjs.org/hoist-non-react-statics/-/hoist-non-react-statics-3.3.0.tgz",
+          "integrity": "sha512-0XsbTXxgiaCDYDIWFcwkmerZPSwywfUqYmwT4jzewKTQSWoE6FCMoUVOeBJWK3E/CrWbxRG3m5GzY4lnIwGRBA==",
+          "requires": {
+            "react-is": "^16.7.0"
+          }
+        }
       }
     },
     "react-resize-detector": {
